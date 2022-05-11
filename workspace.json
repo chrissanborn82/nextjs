@@ -1,4 +1,8 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "my-new-app": "packages/my-new-app",
+    "my-new-app-e2e": "packages/my-new-app-e2e",
+    "ui": "packages/ui"
+  }
 }
