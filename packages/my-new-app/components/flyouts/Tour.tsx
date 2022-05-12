@@ -8,7 +8,7 @@ export const Tour = () => {
         <FlyoutContext.Consumer>
             {({ showFlyout, toggleFlyout }) =>
                 <div className="w-full">
-                    <div className="text-sm text-gray-500">Quick links</div>
+                    <div className="text-sm text-gray-500">Quick links 2</div>
                     <ul>
                         {tour_links.map((link) => (
                             <li className="text-blue-400 text-sm cursor-pointer hover:underline">
