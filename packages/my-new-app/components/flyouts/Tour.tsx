@@ -3,7 +3,11 @@ import { FlyoutContext } from '../arHeader'
 
 export const Tour = () => {
 
-    const tour_links = [{ label: "Learn more about ROADSHOW's 2022 Tour", href: '/tickets' }, { label: "2022 Tour Complete Rules", href: "/rules" }]
+    const tour_links = [
+        { label: "Learn more about ROADSHOW's 2022 Tour", href: '/tickets' },
+        { label: "2022 Tour Complete Rules", href: "/rules" },
+        { label: "Boise ID", href: "/tour/boise-id" }
+    ];
     return (
         <FlyoutContext.Consumer>
             {({ showFlyout, toggleFlyout }) =>
