@@ -9,7 +9,7 @@ export function Ui(props: UiProps) {
           color: pink;
         }
       `}</style>
-      <h1>Welcome to Ui!</h1>
+      <h1>Welcome to Ui! just kidding</h1>
     </div>
   );
 }

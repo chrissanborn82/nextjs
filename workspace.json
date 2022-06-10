@@ -3,6 +3,8 @@
   "projects": {
     "my-new-app": "packages/my-new-app",
     "my-new-app-e2e": "packages/my-new-app-e2e",
+    "nova": "packages/nova",
+    "nova-e2e": "packages/nova-e2e",
     "ui": "packages/ui"
   }
 }
